@@ -579,12 +579,16 @@ footer {
   color: white;
 }
 footer .container .up {
+  text-align: center;
   margin-bottom: 6.4rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 footer .container .up .text {
-  max-width: 41.6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 footer .container .up .text h2 {
   margin-bottom: 2.4rem;
@@ -592,44 +596,20 @@ footer .container .up .text h2 {
   font-weight: 900;
 }
 footer .container .up .text p {
-  font-size: 20px;
+  font-size: 30px;
+  margin: 0 auto;
+  max-width: 60rem;
   font-weight: 400;
 }
-footer .container .formulario {
-  display: flex;
-  flex-direction: column;
-  max-width: 54.9rem;
-  width: 100%;
-  gap: 3.3rem;
+footer .container .up .btn {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 25.9rem;
+  transition: 0.3s ease;
+  color: #1F1B8C;
 }
-footer .container .formulario input {
-  border-bottom: 3px solid white;
-  font-family: "inter", sans-serif;
-  background-color: #1F1B8C;
-  font-size: 2rem;
-  padding-bottom: 0.2rem;
-  opacity: 0.7;
-}
-footer .container .formulario input::-webkit-inner-spin-button, footer .container .formulario input::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-footer .container .formulario input::-moz-placeholder {
-  color: white;
-  font-family: Inter;
-  font-weight: 400;
-}
-footer .container .formulario input::placeholder {
-  color: white;
-  font-family: Inter;
-  font-weight: 400;
-}
-footer .container .formulario .idade-ano {
-  display: flex;
-  gap: 3.1rem;
-}
-footer .container .formulario .idade-ano .two {
-  max-width: 24.3rem;
+footer .container .up .btn:hover {
+  color: #FF6607;
 }
 footer .container .mid {
   margin-bottom: 2.5rem;
@@ -710,14 +690,13 @@ footer .container .final {
     padding-bottom: 5.3rem;
     overflow-x: hidden;
   }
+  footer .container .up .text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
   footer .container .up .text h2 {
     font-size: 3.7rem;
-  }
-  footer .container .up .formulario .idade-ano {
-    flex-direction: column;
-  }
-  footer .container .up .formulario .idade-ano .two {
-    max-width: 500px;
   }
   footer .container .mid {
     flex-direction: column;
