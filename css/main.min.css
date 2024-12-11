@@ -166,7 +166,7 @@ input {
 }
 .s-main .container .main-init .texts p {
   margin-bottom: 3rem;
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #B4B4B4;
 }
 .s-main .container .main-init .texts .btn {
@@ -280,7 +280,7 @@ input {
   scale: 1.2;
 }
 .s-show .container .slide .swiper-button-next {
-  right: 2.7rem;
+  right: 0.7rem;
   color: #FF6607;
   transition: 0.3s ease;
 }
@@ -495,6 +495,9 @@ input {
   }
 }
 @media (max-width: 560px) {
+  .s-feedback .container .swiper img {
+    scale: 0.9;
+  }
   .s-feedback .container h1 {
     padding-top: 4.4rem;
     font-size: 3.8rem;
