@@ -70,7 +70,7 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  max-width: 48.4rem;
+  max-width: 44.4rem;
   margin-bottom: 5.8rem;
 }
 .s-hero .container .left .btn {
@@ -265,6 +265,9 @@ input {
   margin-top: 3.4rem;
   margin-bottom: 7.5rem;
 }
+.s-show .container .slide .swiper-wrapper {
+  left: -20px;
+}
 .s-show .container .slide img {
   border-radius: 20px;
 }
@@ -280,7 +283,7 @@ input {
   scale: 1.2;
 }
 .s-show .container .slide .swiper-button-next {
-  right: 0.7rem;
+  right: 0rem;
   color: #FF6607;
   transition: 0.3s ease;
 }
@@ -309,7 +312,7 @@ input {
   }
   .s-show .container .slide .swiper-wrapper {
     gap: 2rem;
-    left: -81px;
+    left: -22px;
     scale: 0.8;
   }
   .s-show .container .slide .swiper-button-next {
